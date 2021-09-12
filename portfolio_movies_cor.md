@@ -2601,7 +2601,7 @@ nrow(df)
 
 ### Plot budget vs gross earnings (scatterplot and reg line)
 
-![](portfolio_movies_cor_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
+![](unnamed-chunk-9-1.png)<!-- -->
 
 ### Statistics: correlation
 
@@ -3205,7 +3205,7 @@ Cor.data
 corrplot(Cor.data, method = 'color', col = col2(50))  
 ```
 
-![](portfolio_movies_cor_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
+![](unnamed-chunk-10-1.png)<!-- -->
 
 ### After making all of the character type columns numeric, we can see the correlation matrix for the entire dataset
 
@@ -3316,7 +3316,7 @@ Cor.data2
 corrplot(Cor.data2, method = 'color', col = col2(50))  
 ```
 
-![](portfolio_movies_cor_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
+![](unnamed-chunk-11-1.png)<!-- -->
 
 ``` r
 kbl(df[1:10,]) %>% 
